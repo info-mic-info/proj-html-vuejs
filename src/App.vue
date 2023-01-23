@@ -15,7 +15,9 @@ export default {
 
 <template lang="">
   <div class="background">
+    <div class="container">
     <AppHeader/>
+  </div>
   </div>
 
 <AppMain/>
@@ -32,7 +34,9 @@ export default {
 .background {
   background-image: url("./assets/images/1-hero-image.png");
   background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
   color: white;
-  height: 1000px;
+  height: 500px;
 }
 </style>
