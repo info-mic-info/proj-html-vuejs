@@ -18,31 +18,39 @@ export default {};
 
     <div class="mycard text-center">
         <div class="row d-flex justify-content-between">
-<div class="col-2">
-    <i class="fa-brands fa-google"></i>
-    <h4>Google SEO</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt voluptatum consequuntur sed sapiente ipsum temporibus magnam excepturi dolore necessitatibus.</p>
-    <h6>Read More></h6>
+<div class="col">
+  <ul>
+   <li> <i class="fa-brands fa-google"></i></li>
+    <li><h4>Google SEO</h4></li>
+    <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt voluptatum consequuntur sed sapiente ipsum temporibus magnam excepturi dolore necessitatibus.</p></li>
+    <li><h6>Read More></h6></li>
+  </ul>
 </div>
-<div class="col-2">
-    <i class="fa-solid fa-gear"></i>
-    <h4>Brand Strategy</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt voluptatum consequuntur sed sapiente ipsum temporibus magnam excepturi dolore necessitatibus.</p>
-    <h6>Read More></h6>
+<div class="col">
+  <ul>
+  <li> <i class="fa-solid fa-gear"></i></li> 
+  <li> <h4>Brand Strategy</h4></li> 
+   <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt voluptatum consequuntur sed sapiente ipsum temporibus magnam excepturi dolore necessitatibus.</p></li> 
+   <li> <h6>Read More></h6></li>
+  </ul>
 </div> 
 
-<div class="col-2">
-    <i class="fa-solid fa-building"></i>
-    <h4>Local SEO</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt voluptatum consequuntur sed sapiente ipsum temporibus magnam excepturi dolore necessitatibus.</p>
-    <h6>Read More></h6>
+<div class="col">
+  <ul>
+    <li><i class="fa-solid fa-building"></i></li>
+    <li><h4>Local SEO</h4></li>
+    <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt voluptatum consequuntur sed sapiente ipsum temporibus magnam excepturi dolore necessitatibus.</p></li>
+    <li><h6>Read More></h6></li>
+  </ul>
 </div>
 
-<div class="col-2">
-    <i class="fa-solid fa-chart-column"></i>
-    <h4>SEO Analysis</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt voluptatum consequuntur sed sapiente ipsum temporibus magnam excepturi dolore necessitatibus.</p>
-    <h6>Read More></h6>
+<div class="col">
+  <ul>
+   <li> <i class="fa-solid fa-chart-column"></i></li>
+    <li><h4>SEO Analysis</h4></li>
+    <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt voluptatum consequuntur sed sapiente ipsum temporibus magnam excepturi dolore necessitatibus.</p></li>
+    <li><h6>Read More></h6></li>
+  </ul>
 </div>
         </div>
     </div>
@@ -58,10 +66,14 @@ export default {};
   color: white;
 }
 
-.col-2 {
+.col {
   background-color: #1a236c;
-  padding: 20px;
+  padding: 40px;
   margin: 6px;
+}
+
+li {
+  padding: 10px 0;
 }
 
 i {
