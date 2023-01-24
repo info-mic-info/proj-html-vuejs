@@ -2,44 +2,61 @@
 export default {};
 </script>
 
-<template lang="">
+<template>
+  <section class="background_e">
     <div class="container w-75 py-5">
-       <div class="text-center py-5">
-    <h1>Our News</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-  </div>
-  <div class="container text-center">
-    <div class="row">
-        <div class="col-4">
-            <img src="../assets/images/related-service-2-700x441.jpg" alt="">
+      <div class="text-center py-5">
+        <h1>Our News</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-4">
+            <img
+              src="../assets/images/related-service-2-700x441.jpg"
+              alt=""
+            >
             <h6>Why You Nedd A SEO Agency Now</h6>
             <p>November 1st, 2017</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit nemo minima sit a. Eius vel alias quo, et suscipit odit voluptatum? Voluptas porro repellendus, odio iusto dolorem cupiditate nesciunt.</p>
-        </div>
+          </div>
 
-        <div class="col-4">
-            <img src="../assets/images/related-service-4-700x441.jpg" alt="">
+          <div class="col-4">
+            <img
+              src="../assets/images/related-service-4-700x441.jpg"
+              alt=""
+            >
             <h6>Why You Nedd A SEO Agency Now</h6>
             <p>November 1st, 2017</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit nemo minima sit a. Eius vel alias quo, et suscipit odit voluptatum? Voluptas porro repellendus, odio iusto dolorem cupiditate nesciunt.</p>
-        </div>
+          </div>
 
-        <div class="col-4">
-            <img src="../assets/images/blog-post-6-700x441.jpg" alt="">
+          <div class="col-4">
+            <img
+              src="../assets/images/blog-post-6-700x441.jpg"
+              alt=""
+            >
             <h6>Why You Nedd A SEO Agency Now</h6>
             <p>November 1st, 2017</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit nemo minima sit a. Eius vel alias quo, et suscipit odit voluptatum? Voluptas porro repellendus, odio iusto dolorem cupiditate nesciunt.</p>
-        </div>
+          </div>
 
+        </div>
+      </div>
+      <div class="container text-center">
+        <button
+          type="button"
+          class="btn btn-warning radius"
+        >GO TO NEWS</button>
+      </div>
     </div>
-  </div>
-  <div class="container text-center">
-    <button type="button" class="btn btn-warning radius">GO TO NEWS</button>
-  </div>
-</div>
+  </section>
 </template>
 
 <style lang="scss" scoped>
+.background_e {
+  background-color: #f8f8f8;
+}
 img {
   width: 100%;
   object-fit: cover;
