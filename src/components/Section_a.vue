@@ -7,7 +7,7 @@ export default {};
     <section class="background-Section-a">
 
 
-  <div class="container pt-5">
+  <div class="container w-75 pt-5">
     <div class="container">
     <div class="text-center">
        <h3><strong>Meet The New Agency SEO Template From The Avada Team</strong></h3>

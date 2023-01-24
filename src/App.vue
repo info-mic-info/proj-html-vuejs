@@ -15,7 +15,7 @@ export default {
 
 <template lang="">
   <div class="background">
-    <div class="container">
+    <div class="container w-75">
     <AppHeader/>
   </div>
   </div>

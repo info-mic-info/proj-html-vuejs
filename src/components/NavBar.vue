@@ -8,10 +8,13 @@ export default {
 
 
 <template lang="">
-<li class="mx-2">{{itemsNav.label}}</li>
+<li class="mx-4">{{itemsNav.label}}</li>
 
 </template>
 
 
-<style lang="">
+<style lang="scss" scoped>
+li:hover {
+  color: orange;
+}
 </style>

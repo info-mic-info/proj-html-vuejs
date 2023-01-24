@@ -3,7 +3,7 @@ export default {};
 </script>
 
 <template lang="">
-    <div class="container py-5">
+    <div class="container w-75 py-5">
        <div class="text-center py-5">
     <h1>Our News</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
@@ -47,10 +47,5 @@ img {
 
 h6 {
   color: orange;
-}
-
-.radius {
-  border-radius: 30px;
-  padding: 10px 30px;
 }
 </style>

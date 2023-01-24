@@ -4,7 +4,7 @@ export default {};
 
 <template lang="">
   <section class="background_d">
-    <div class="container py-5">
+    <div class="container w-75 py-5">
     <div class="text-center">
     <h1>Our Plans</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>

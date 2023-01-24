@@ -47,14 +47,14 @@ export default {
 
 
 <template lang="" >
-  <header class="d-flex justify-content-between ">
+  <header class="d-flex justify-content-between pt-3">
 
     <img
       src="../assets/images/logo_seo_w_2x.png"
       alt=""
     >
 
-    <div class="Container-fluid d-flex ">
+    <div class="Container d-flex ">
       <ul class="d-flex margin-auto">
         <NavBar
           v-for="(item, index) in items"
@@ -62,9 +62,14 @@ export default {
           :itemsNav="item"
         />
       </ul>
-      <button type="button" class="btn btn-warning">CONTACT US</button>
+      <div class="margin-auto text-center ms-3">
+      <button type="button" class="btn btn-warning radius">CONTACT US</button>
     </div>
+    </div>
+    
   </header>
+
+
   <Jumbotron />
 
 </template>
@@ -73,5 +78,9 @@ export default {
 <style lang="scss" scoped>
 .margin-auto {
   margin: auto 0;
+}
+
+img {
+  width: 15%;
 }
 </style>

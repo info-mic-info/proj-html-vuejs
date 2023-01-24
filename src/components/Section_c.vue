@@ -3,13 +3,13 @@ export default {};
 </script>
 
 <template lang="">
-   <div class="container">
+   <div class="container w-75">
     <div class="text-center">
     <h1>Our Work</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
     </div>
    </div>
-   <div class="container">
+   <div class="container w-75">
     <div class="row">
         <div class="col-4">
             <img src="../assets/images/case-study-gallery-3-1.jpg" alt="">

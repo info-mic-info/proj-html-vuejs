@@ -9,7 +9,7 @@ export default {
 
 
 <template lang="">
-<div class="container text-center py-5">
+<div class="container text-center w-75 py-5">
     <img src="../assets/images/logo_seo_2x.png" alt="">
     <ul>
         <li></li>

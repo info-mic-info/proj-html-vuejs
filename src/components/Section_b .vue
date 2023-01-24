@@ -7,14 +7,14 @@ export default {};
     <section class="background-blue">
 
         
-        <div class="container py-5">
+        <div class="container w-75 py-5">
             <div class="text-center">
         <h1>See our Top Notch Services</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
         </div>
 
         </div>
-        <div class="container py-5">
+        <div class="container w-75 py-5">
 
     <div class="mycard text-center">
         <div class="row d-flex justify-content-between">

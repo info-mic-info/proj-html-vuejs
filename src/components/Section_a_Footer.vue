@@ -4,7 +4,7 @@ export default {};
 
 
 <template lang="">
-    <div class="container text-center">
+    <div class="container w-75 text-center">
         <ul>
             <li> <h2><strong>What Our Client Say</strong></h2></li>
             <li> <img src="../assets/images/testimonials-2.jpg" alt=""></li>
