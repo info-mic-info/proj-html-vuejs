@@ -13,18 +13,14 @@ export default {
 </script>
 
 
-<template lang="">
-  <div class="background">
-    <div class="container w-75">
-    <AppHeader/>
-  </div>
-  </div>
+<template>
+  <!-- <div class="container w-75"> -->
+  <AppHeader />
 
-<AppMain/>
+  <AppMain />
 
-<AppFooter/>
-  
-  
+  <AppFooter />
+
 </template>
 
 

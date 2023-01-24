@@ -1,13 +1,15 @@
 <script>
+import { store } from "../store";
 import NavBar from "./NavBar.vue";
-import Jumbotron from "./Jumbotron.vue";
+import JumbotronActive from "./JumbotronActive.vue";
 export default {
   components: {
     NavBar,
-    Jumbotron,
+    JumbotronActive,
   },
   data() {
     return {
+      store,
       items: [
         {
           label: "Home",
@@ -47,14 +49,14 @@ export default {
 
 
 <template lang="" >
-  <header class="d-flex justify-content-between pt-3">
-
+    <header>
+        <!-- <header :style="{background-image: url(store.backgroundHeader)}"> -->
+          <img :src="`./src/assets/images/` + store.backgroundHeader">
+        <div class="container d-flex w-75">
     <img
       src="../assets/images/logo_seo_w_2x.png"
       alt=""
     >
-
-    <div class="Container d-flex ">
       <ul class="d-flex margin-auto">
         <NavBar
           v-for="(item, index) in items"
@@ -62,15 +64,22 @@ export default {
           :itemsNav="item"
         />
       </ul>
-      <div class="margin-auto text-center ms-3">
+   
       <button type="button" class="btn btn-warning radius">CONTACT US</button>
     </div>
-    </div>
-    
+  
+
+<div class="container w-75">
+  <JumbotronActive/> 
+
+
+  
+</div>
+
   </header>
 
 
-  <Jumbotron />
+
 
 </template>
 
