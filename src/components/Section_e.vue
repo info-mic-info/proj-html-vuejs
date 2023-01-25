@@ -12,30 +12,36 @@ export default {};
       <div class="container text-center">
         <div class="row">
           <div class="col-4">
-            <img
-              src="../assets/images/related-service-2-700x441.jpg"
-              alt=""
-            >
+            <div class="image">
+              <img
+                src="../assets/images/related-service-2-700x441.jpg"
+                alt=""
+              >
+            </div>
             <h6 class="pt-4"><strong>Why You Need A SEO Agency Now</strong></h6>
             <p class="miniature">November 1st, 2017</p>
             <p>ALorem ipsum dolor sit amet, consectetur adipiscing elit. In et scelerisque sem. Nunc molestie neque augue, at gravida mi blandit</p>
           </div>
 
           <div class="col-4">
-            <img
-              src="../assets/images/related-service-4-700x441.jpg"
-              alt=""
-            >
+            <div class="image">
+              <img
+                src="../assets/images/related-service-4-700x441.jpg"
+                alt=""
+              >
+            </div>
             <h6 class="pt-4"><strong>SEO Tips For Your Startup</strong></h6>
             <p class="miniature">November 1st, 2017</p>
             <p>ALorem ipsum dolor sit amet, consectetur adipiscing elit. In et scelerisque sem. Nunc molestie neque augue, at gravida mi blandit</p>
           </div>
 
           <div class="col-4">
-            <img
-              src="../assets/images/blog-post-6-700x441.jpg"
-              alt=""
-            >
+            <div class="image">
+              <img
+                src="../assets/images/blog-post-6-700x441.jpg"
+                alt=""
+              >
+            </div>
             <h6 class="pt-4"><strong>Image Optimization For Your Site</strong></h6>
             <p class="miniature">November 1st, 2017</p>
             <p>ALorem ipsum dolor sit amet, consectetur adipiscing elit. In et scelerisque sem. Nunc molestie neque augue, at gravida mi blandit</p>
@@ -61,14 +67,19 @@ export default {};
 .miniature {
   font-size: 12px;
 }
+
+.image {
+  overflow: hidden;
+}
+
 img {
   width: 100%;
-  object-fit: cover;
   transition: transform 0.6s;
-  &:hover {
-    transform: scale(1.1);
-    border-radius: 5px;
-  }
+  object-fit: cover;
+}
+
+.image:hover img {
+  transform: scale(1.1);
 }
 
 h6 {
