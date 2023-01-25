@@ -37,9 +37,15 @@ export default {};
 
 </template> 
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 .col-4 {
   padding: 0.5rem;
+  &:hover {
+    background-image: url("../assets/images/fss-demo-main-400x300.jpg");
+    img {
+      display: none;
+    }
+  }
 }
 
 img {
