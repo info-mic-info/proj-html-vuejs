@@ -44,14 +44,14 @@ export default {
 
 
 <template lang="">
-    <div class="container w-75 text-center">
+    <div class="container w-75 text-center py-5">
         <ul>
             <li> <h2><strong>What Our Client Say</strong></h2></li>
             <li> <img :src="`/src/assets/images/`+ img_circle[this.activeImage].image"></li>
             <li><p><i>{{img_circle[this.activeImage].paragraf}}</i></p></li>
             <li><p><strong>{{img_circle[this.activeImage].nameavatar}}</strong>, {{img_circle[this.activeImage].work}} </p></li>
         </ul>
-        <div class="container">
+        <div class="container pb-5">
        
             <i  v-for="(item, index) in img_circle" 
                     :class="(activeImage === index) ? `fa-solid fa-circle` : ``" class="fa-regular fa-circle me-1" @click=" nextImage()" ></i>

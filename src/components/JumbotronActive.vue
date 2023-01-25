@@ -111,13 +111,13 @@ _____________________________ -->
 .right {
   position: absolute;
   right: 5px;
-  top: 15%;
+  top: 30%;
 }
 
 .left {
   position: absolute;
   left: 5px;
-  top: 15%;
+  top: 30%;
 }
 li {
   padding: 5px 0;

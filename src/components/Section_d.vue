@@ -5,64 +5,69 @@ export default {};
 <template lang="">
   <section class="background_d">
     <div class="container w-75 py-5">
-    <div class="text-center">
-    <h1>Our Plans</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <div class="container w-50 text-center">
+    <h1><strong>Our Plans</strong></h1>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
   </div>
 
   <div class="container py-5">
     <div class="row d-flex justify-content-between">
       <div class="col text-center">
-        <h4>Standard</h4>
+        <h4><strong>Standard</strong></h4>
         <div class="price d-flex justify-content-center">
-          <div ><h6>$</h6></div>
-          <div ><h1>19</h1></div>
-          <div ><h6>99</h6> <p>Monthtly</p></div>
+          <div><h6>$</h6></div>
+          <div><h1>19</h1></div>
+          <div><h6>99</h6> <p>Monthtly</p></div>
         </div>
-        
+        <div class="info">
         <p>5 Projects</p>
         <p>5 GB Storage</p>
-        <p>Unlimited User</p>
-        <button type="button" class="btn btn-outline-secondary">START TODAY</button>
+        <p>Unlimited Users</p>
       </div>
-
-      <div class="col text-center">
-        <h4>Standard</h4>
-        <div class="price d-flex justify-content-center">
-          <div ><h6>$</h6></div>
-          <div ><h1>19</h1></div>
-          <div ><h6>99</h6> <p>Monthtly</p></div>
-        </div>
-        <p>5 Projects</p>
-        <p>5 GB Storage</p>
-        <p>Unlimited User</p>
-        <button type="button" class="btn btn-outline-secondary">START TODAY</button>
+        <button type="button" class="btn btn-outline-secondary radius my-4">START TODAY</button>
       </div>
-
       <div class="col text-center">
-        <h4>Standard</h4>
+        <h4><strong>Premium</strong></h4>
         <div class="price d-flex justify-content-center">
-          <div ><h6>$</h6></div>
-          <div ><h1>19</h1></div>
-          <div ><h6>99</h6> <p>Monthtly</p></div>
+          <div><h6>$</h6></div>
+          <div><h1>29</h1></div>
+          <div><h6>99</h6> <p>Monthtly</p></div>
         </div>
-        <p>5 Projects</p>
-        <p>5 GB Storage</p>
-        <p>Unlimited User</p>
-        <button type="button" class="btn btn-outline-secondary">START TODAY</button>
+        <div class="info">
+        <p>10 Projects</p>
+        <p>15 GB Storage</p>
+        <p>Unlimited Users</p>
       </div>
-
+        <button type="button" class="btn btn-outline-secondary radius my-4">START TODAY</button>
+      </div>
       <div class="col text-center">
-        <h4>Standard</h4>
+        <h4><strong>Professional</strong></h4>
         <div class="price d-flex justify-content-center">
-          <div ><h6>$</h6></div>
-          <div ><h1>19</h1></div>
-          <div ><h6>99</h6> <p>Monthtly</p></div>
+          <div><h6>$</h6></div>
+          <div><h1>39</h1></div>
+          <div><h6>99</h6> <p>Monthtly</p></div>
         </div>
-        <p>5 Projects</p>
-        <p>5 GB Storage</p>
-        <p>Unlimited User</p>
-        <button type="button" class="btn btn-outline-secondary">START TODAY</button>
+        <div class="info">
+        <p>15 Projects</p>
+        <p>30 GB Storage</p>
+        <p>Unlimited Users</p>
+      </div>
+        <button type="button" class="btn btn-outline-secondary radius my-4">START TODAY</button>
+      </div>
+      
+      <div class="col text-center">
+        <h4><strong>Extreme</strong></h4>
+        <div class="price d-flex justify-content-center">
+          <div><h6>$</h6></div>
+          <div><h1>59</h1></div>
+          <div><h6>99</h6> <p>Monthtly</p></div>
+        </div>
+        <div class="info">
+        <p>Unlimited Projects</p>
+        <p>Unlimited Storage</p>
+        <p>Unlimited Users</p>
+      </div>
+        <button type="button" class="btn btn-outline-secondary radius my-4">START TODAY</button>
       </div>
 
    
@@ -78,6 +83,25 @@ export default {};
   color: white;
 }
 
+.btn {
+  color: black;
+
+  &:hover {
+    background-color: orange;
+  }
+}
+
+.info {
+  p {
+    padding: 10px 0;
+  }
+}
+
+h4 {
+  padding: 20px 0;
+  color: rgb(96, 122, 254);
+}
+
 .col {
   background-color: white;
   color: black;
@@ -86,6 +110,7 @@ export default {};
 }
 
 .price {
+  padding: 10px 0;
   p {
     font-size: 8px;
     font-weight: bold;
@@ -94,7 +119,7 @@ export default {};
   h6 {
     font-weight: bold;
     text-align: left;
-    color: rgb(61, 13, 172);
+    color: rgb(96, 122, 254);
   }
 }
 </style>
