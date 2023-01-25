@@ -64,6 +64,11 @@ export default {};
 img {
   width: 100%;
   object-fit: cover;
+  transition: transform 0.6s;
+  &:hover {
+    transform: scale(1.1);
+    border-radius: 5px;
+  }
 }
 
 h6 {

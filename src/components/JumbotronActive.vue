@@ -98,8 +98,8 @@ _____________________________ -->
   color: white;
 }
 .arrow {
-  width: 20px;
-  height: 30px;
+  width: 40px;
+  height: 50px;
   background-color: black;
   color: white;
   opacity: 0.5;
