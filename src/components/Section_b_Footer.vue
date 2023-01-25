@@ -5,7 +5,7 @@ export default {};
 
 <template lang="">
 <div class="col-12">
-    <img class="img-fluid" src="../assets/images/CTA-seo-1.jpg" alt="">
+    <img class="img-fluid w-100" src="../assets/images/CTA-seo-1.jpg" alt="">
 
 
     <div class="container w-25 py-2">

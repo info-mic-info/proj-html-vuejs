@@ -18,18 +18,32 @@ export default {};
 
     <div class="mycard text-center">
         <div class="row d-flex justify-content-between">
-<div class="col">
+
+
+  <div class="col">
   <ul>
+    <div class="orange">
+      <div class="container-fluid child bounce">
    <li> <i class="fa-brands fa-google"></i></li>
+  </div>
     <li><h4><strong>Google SEO</strong></h4></li>
+  
+  </div>
     <li><p>Vestibulum in lacinia metus. Suspendisse in enim ipsum. Nulla facilisi. Donec ante turpis, dictum sed magna et dapibus faucibus odio.</p></li>
     <li><h6>Let's work together></h6></li>
   </ul>
 </div>
+
+
+
 <div class="col">
   <ul>
+    <div class="orange">
+      <div class="container-fluid child bounce">
   <li> <i class="fa-solid fa-gear"></i></li> 
+</div>
   <li> <h4><strong>Brand Strategy</strong></h4></li> 
+</div>
    <li><p>Vestibulum in lacinia metus. Suspendisse in enim ipsum. Nulla facilisi. Donec ante turpis, dictum sed magna et dapibus faucibus odio.</p></li> 
    <li> <h6>Let's work together></h6></li>
   </ul>
@@ -37,8 +51,12 @@ export default {};
 
 <div class="col">
   <ul>
+    <div class="orange">
+      <div class="container-fluid child bounce">
     <li><i class="fa-solid fa-building"></i></li>
+  </div>
     <li><h4><strong>Local SEO</strong></h4></li>
+  </div>
     <li><p>Vestibulum in lacinia metus. Suspendisse in enim ipsum. Nulla facilisi. Donec ante turpis, dictum sed magna et dapibus faucibus odio.</p></li>
     <li><h6>Let's work together></h6></li>
   </ul>
@@ -46,8 +64,12 @@ export default {};
 
 <div class="col">
   <ul>
+    <div class="orange">
+      <div class="container-fluid child bounce">
    <li> <i class="fa-solid fa-chart-column"></i></li>
+  </div>
     <li><h4><strong>SEO Analysis</strong></h4></li>
+  </div>
     <li><p>Vestibulum in lacinia metus. Suspendisse in enim ipsum. Nulla facilisi. Donec ante turpis, dictum sed magna et dapibus faucibus odio.</p></li>
     <li><h6>Let's work together></h6></li>
   </ul>
@@ -60,6 +82,38 @@ export default {};
 
 
 <style lang="scss" scoped>
+.orange:hover {
+  h4 {
+    color: orange;
+  }
+  .bounce {
+    animation-name: bounce;
+    animation-timing-function: ease;
+  }
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    75% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+}
+
+.child {
+  animation-duration: 0.2s;
+  transform-origin: bottom;
+}
+
 .background-blue {
   background-image: url("../assets/images/pattern_background.png");
   background-color: #051745;

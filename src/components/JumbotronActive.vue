@@ -56,19 +56,20 @@ export default {
 
     <!-- <img :src="`./src/assets/images/` + img_jumbotron[activeImage].background"> -->
   
-  <div class="row">
-    <div class="col-6">
+  <div class="row w-50">
+    <div class="col">
       <div class="jumbotron py-5 pe-5 margintitle">
         
         
 <!-- ------------------------------------------ -->
 <!-- TESTO ATTIVO -->
-<ul>
-<li><h1><strong>{{img_jumbotron[activeImage].title}}</strong></h1></li>
-<li><p>{{img_jumbotron[activeImage].paragraf}} </p></li>
-</ul>
+<h1><strong>{{img_jumbotron[activeImage].title}}</strong></h1>
+<p>{{img_jumbotron[activeImage].paragraf}} </p>
+
 
 <!-- ------------------------------------------ -->
+</div>
+<div class="container">
 <button
 type="button"
 class="btn btn-warning radius me-3"
@@ -78,11 +79,14 @@ type="button"
 class="btn btn-primary radius"
         >CONTACT US</button>
       </div>
-      <div class="col-6"></div>
+
+
+
+    
     </div>
     
-    <div @click=" prevImage()"><i class="fa-solid fa-chevron-left arrow left"></i></div>
-    <div @click=" nextImage()" ><i class="fa-solid fa-chevron-right arrow right"></i></div>
+    <i @click=" prevImage()" class="fa-solid fa-chevron-left arrow left"></i>
+    <i @click=" nextImage()" class="fa-solid fa-chevron-right arrow right"></i>
 
 
   </div>
@@ -94,6 +98,9 @@ _____________________________ -->
 
 </template>
 <style lang="scss" scoped>
+.jumbotron {
+  height: 250px;
+}
 .row {
   color: white;
 }
@@ -123,7 +130,10 @@ li {
   padding: 5px 0;
 }
 
+.row {
+  height: 600px;
+}
 .margintitle {
-  margin: 200px 0;
+  margin-top: 100px;
 }
 </style>
