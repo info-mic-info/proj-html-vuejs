@@ -4,9 +4,9 @@ export default {};
 
 <template lang="">
    <div class="container w-75">
-    <div class="text-center">
-    <h1>Our Work</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <div class="container w-50 text-center py-5">
+    <h1><strong>Our Work</strong></h1>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
     </div>
    </div>
    <div class="container w-75">
@@ -31,13 +31,17 @@ export default {};
         </div>
     </div>
     <div class="container text-center my-5">
-    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-warning radius">WIEW OUR WORK</button>
 </div>
    </div>
 
 </template> 
 
 <style lang="css" scoped>
+.col-4 {
+  padding: 0.5rem;
+}
+
 img {
   width: 100%;
   object-fit: cover;

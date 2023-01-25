@@ -3,7 +3,7 @@ import { reactive } from 'vue';
 
 export const store = reactive({
 
-backgroundHeader:""
+backgroundHeader:"Ciao sono l'immagine"
 
 
 })

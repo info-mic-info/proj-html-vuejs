@@ -7,49 +7,49 @@ export default {};
     <section class="background-blue">
 
         
-        <div class="container w-75 py-5">
-            <div class="text-center">
-        <h1>See our Top Notch Services</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <div class="container w-75 paddingplus ">
+            <div class="container w-50 text-center">
+        <h1 class="mb-4"><strong>See our Top Notch Services</strong></h1>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
         </div>
 
         </div>
-        <div class="container w-75 py-5">
+        <div class="container w-75 paddingcard">
 
     <div class="mycard text-center">
         <div class="row d-flex justify-content-between">
 <div class="col">
   <ul>
    <li> <i class="fa-brands fa-google"></i></li>
-    <li><h4>Google SEO</h4></li>
-    <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt voluptatum consequuntur sed sapiente ipsum temporibus magnam excepturi dolore necessitatibus.</p></li>
-    <li><h6>Read More></h6></li>
+    <li><h4><strong>Google SEO</strong></h4></li>
+    <li><p>Vestibulum in lacinia metus. Suspendisse in enim ipsum. Nulla facilisi. Donec ante turpis, dictum sed magna et dapibus faucibus odio.</p></li>
+    <li><h6>Let's work together></h6></li>
   </ul>
 </div>
 <div class="col">
   <ul>
   <li> <i class="fa-solid fa-gear"></i></li> 
-  <li> <h4>Brand Strategy</h4></li> 
-   <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt voluptatum consequuntur sed sapiente ipsum temporibus magnam excepturi dolore necessitatibus.</p></li> 
-   <li> <h6>Read More></h6></li>
+  <li> <h4><strong>Brand Strategy</strong></h4></li> 
+   <li><p>Vestibulum in lacinia metus. Suspendisse in enim ipsum. Nulla facilisi. Donec ante turpis, dictum sed magna et dapibus faucibus odio.</p></li> 
+   <li> <h6>Let's work together></h6></li>
   </ul>
 </div> 
 
 <div class="col">
   <ul>
     <li><i class="fa-solid fa-building"></i></li>
-    <li><h4>Local SEO</h4></li>
-    <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt voluptatum consequuntur sed sapiente ipsum temporibus magnam excepturi dolore necessitatibus.</p></li>
-    <li><h6>Read More></h6></li>
+    <li><h4><strong>Local SEO</strong></h4></li>
+    <li><p>Vestibulum in lacinia metus. Suspendisse in enim ipsum. Nulla facilisi. Donec ante turpis, dictum sed magna et dapibus faucibus odio.</p></li>
+    <li><h6>Let's work together></h6></li>
   </ul>
 </div>
 
 <div class="col">
   <ul>
    <li> <i class="fa-solid fa-chart-column"></i></li>
-    <li><h4>SEO Analysis</h4></li>
-    <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt voluptatum consequuntur sed sapiente ipsum temporibus magnam excepturi dolore necessitatibus.</p></li>
-    <li><h6>Read More></h6></li>
+    <li><h4><strong>SEO Analysis</strong></h4></li>
+    <li><p>Vestibulum in lacinia metus. Suspendisse in enim ipsum. Nulla facilisi. Donec ante turpis, dictum sed magna et dapibus faucibus odio.</p></li>
+    <li><h6>Let's work together></h6></li>
   </ul>
 </div>
         </div>
@@ -66,8 +66,15 @@ export default {};
   color: white;
 }
 
+.paddingplus {
+  padding: 50px 0;
+}
+.paddingcard {
+  padding-bottom: 130px;
+  padding-top: 50px;
+}
 .col {
-  background-color: #1a236c;
+  background-color: rgb(0, 16, 97);
   padding: 40px;
   margin: 6px;
 }
@@ -77,10 +84,15 @@ li {
 }
 
 i {
-  color: yellow;
+  color: orange;
+  font-size: 40px;
+}
+
+h4:hover {
+  color: orange;
 }
 
 h6 {
-  color: yellow;
+  color: orange;
 }
 </style>

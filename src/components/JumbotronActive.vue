@@ -56,35 +56,34 @@ export default {
 
     <!-- <img :src="`./src/assets/images/` + img_jumbotron[activeImage].background"> -->
   
-  <div class="row prova">
+  <div class="row">
     <div class="col-6">
-      <div class="jumbotron py-5 pe-5">
+      <div class="jumbotron py-5 pe-5 margintitle">
         
         
 <!-- ------------------------------------------ -->
 <!-- TESTO ATTIVO -->
 <ul>
-<li><strong><h1>{{img_jumbotron[activeImage].title}}</h1></strong></li>
+<li><h1><strong>{{img_jumbotron[activeImage].title}}</strong></h1></li>
 <li><p>{{img_jumbotron[activeImage].paragraf}} </p></li>
 </ul>
 
 <!-- ------------------------------------------ -->
-        <button
-          type="button"
-          class="btn btn-warning radius me-3"
-        >BUY AVADA NOW</button>
-        <button
-          type="button"
-          class="btn btn-primary radius"
+<button
+type="button"
+class="btn btn-warning radius me-3"
+>BUY AVADA NOW</button>
+<button
+type="button"
+class="btn btn-primary radius"
         >CONTACT US</button>
       </div>
       <div class="col-6"></div>
     </div>
+    
+    <div @click=" prevImage()"><i class="fa-solid fa-chevron-left arrow left"></i></div>
+    <div @click=" nextImage()" ><i class="fa-solid fa-chevron-right arrow right"></i></div>
 
-    <div class="text-center">
-      <button @click=" prevImage()">Indietro</button>
-      <button @click=" nextImage()" >Avanti</button>
-    </div>
 
   </div>
   <!-- IMMAGINE
@@ -95,11 +94,36 @@ _____________________________ -->
 
 </template>
 <style lang="scss" scoped>
+.row {
+  color: white;
+}
+.arrow {
+  width: 20px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  position: absolute;
+  right: 5px;
+  top: 15%;
+}
+
+.left {
+  position: absolute;
+  left: 5px;
+  top: 15%;
+}
 li {
   padding: 5px 0;
 }
 
-.prova {
-  background-color: red;
+.margintitle {
+  margin: 200px 0;
 }
 </style>

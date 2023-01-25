@@ -49,10 +49,13 @@ export default {
 
 
 <template lang="" >
-    <header>
-        <!-- <header :style="{background-image: url(store.backgroundHeader)}"> -->
-          <img :src="`./src/assets/images/` + store.backgroundHeader">
-        <div class="container d-flex w-75">
+    <!-- <header> -->
+        <header style=" background-size: cover; background-image: url('/1-hero-image.png')">
+          <!-- <img :src="`./src/assets/images/` + store.backgroundHeader"> -->
+        <div class="container w-75 pt-4 ">
+
+          <div class="flex">
+        <div class="logo d-flex">  
     <img
       src="../assets/images/logo_seo_w_2x.png"
       alt=""
@@ -64,18 +67,18 @@ export default {
           :itemsNav="item"
         />
       </ul>
-   
+    </div>
+<div class="button">
       <button type="button" class="btn btn-warning radius">CONTACT US</button>
+    </div>
+  </div>
     </div>
   
 
 <div class="container w-75">
   <JumbotronActive/> 
 
-
-  
 </div>
-
   </header>
 
 
@@ -85,6 +88,14 @@ export default {
 
 
 <style lang="scss" scoped>
+header {
+  color: white;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .margin-auto {
   margin: auto 0;
 }
